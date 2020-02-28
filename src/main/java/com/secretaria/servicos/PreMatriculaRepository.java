@@ -16,4 +16,7 @@ public class PreMatriculaRepository {
         return preMatricula;
     }
 
+    public List<PreMatricula> getList() {
+        return preMatriculas;
+    }
 }

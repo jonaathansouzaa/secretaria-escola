@@ -13,7 +13,7 @@ public class CandidatoRepository {
     private List<Candidato> candidatos = new ArrayList<Candidato>();
 
     public Candidato save(Candidato candidato) {
-        candidatos.add(candidato)
+        candidatos.add(candidato);
         return candidato;
     }
 
